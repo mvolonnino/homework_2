@@ -1,3 +1,81 @@
-h1{
-    color: blue;
+* {
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
 }
+
+/* Navbar */
+.navbar {
+  min-height: 80px;
+}
+
+.customNavbar {
+  padding: 0;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  margin-bottom: 0px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.navbar-toggle {
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+.pipe {
+  color: gray;
+  display: flex;
+  align-items: center;
+  opacity: 30%;
+  margin: 0 15px;
+}
+
+.navRightLink {
+  flex-direction: row;
+  margin-right: 15px;
+}
+
+.navLeft {
+  margin-left: 20px;
+}
+/* ////////////////////////////////////////////////*/
+
+/* Main Content */
+h1, h2, h3, h4 {
+  color: #28a745;
+}
+
+
+
+
+
+@media screen and (max-width: 641px) {
+
+  /* Navbar */
+  .navRight {
+    width: 100%;
+  }
+
+  .navRightLink {
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .navLeft {
+    width: 100%;
+    margin: 0;
+  }
+
+  .fullNav {
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+  }
+}
+/* ////////////////////////////////////////////////*/
+
+
+
