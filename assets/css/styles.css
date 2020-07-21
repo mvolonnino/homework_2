@@ -1,9 +1,11 @@
+/* ----Omni Selector---- */
 * {
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Slab", serif;
 }
 
-/* Navbar */
+
+/* ----Navbar---- */
 .navbar {
   min-height: 80px;
 }
@@ -41,7 +43,8 @@
   margin-left: 20px;
 }
 
-/* Main Content */
+
+/* ----Main Content---- */
 body,
 html {
   height: 100%;
@@ -86,6 +89,8 @@ img {
   background-color: white;
 }
 
+
+/* ----Footer---- */
 .footer {
   position: fixed;
   bottom: 0;
@@ -101,7 +106,8 @@ img {
   opacity: 70%;
 }
 
-/* Media Queries Section */
+
+/* ----Media Queries---- */
 @media screen and (max-width: 641px) {
   /* Navbar */
   .navRight {
