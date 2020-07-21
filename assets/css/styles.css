@@ -71,8 +71,14 @@ body, html{
 
 .col1, .col2{
   margin-left: 19px;
-  margin-right: 19px
+  margin-right: 19px;
+  background-color: white;
 }
+
+
+
+
+
 
 
 @media screen and (max-width: 641px) {
@@ -101,11 +107,7 @@ body, html{
 }
 
 
-.col1, .col2{
-  background-color: white;
-  ;
-  
-}
+
 /* ////////////////////////////////////////////////*/
 
 
