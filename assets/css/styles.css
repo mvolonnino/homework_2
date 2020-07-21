@@ -56,8 +56,11 @@ h4 {
 }
 
 h4 {
-  line-height: 65px;
-  font-size: x-large;
+  line-height: 70px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 img {
