@@ -51,24 +51,28 @@ h2{
   margin-bottom: 0;
 }
 
-body {
+
+body, html{
+  height: 100%;
+  margin: 0;
+}
+
+.bg{
   background-image: url(../css/img/white-marble-bg.jpg);
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
 }
 
-
-.col1{
-  background-color: cornflowerblue;
-}
-.container{
-  border: 2px solid blue;
+.mainSection {
+  padding-top: 15px;
 }
 
-
-.border{
-  border: 2px solid blue;
+.col1, .col2{
+  margin-left: 19px;
+  margin-right: 19px
 }
-
 
 
 @media screen and (max-width: 641px) {
@@ -94,6 +98,13 @@ body {
     text-align: center;
     font-size: xx-large;
   }
+}
+
+
+.col1, .col2{
+  background-color: white;
+  ;
+  
 }
 /* ////////////////////////////////////////////////*/
 
