@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,12 +7,12 @@
   <meta name="Description" content="Enter your description here" />
 
   <!-- Link Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
   <link rel="stylesheet" href="./assets/css/styles.css" />
-  <link href="">
+
   <title>My Portfolio</title>
 
 </head>
@@ -23,36 +22,42 @@
   <div class="bg">
 
     <!-- custom navbar for my header -->
-    <header>
-      <nav class="navbar navbar-dark bg-dark customNavbar shadow-lg">
-        <!-- navLeft get my name on the left hand side  -->
+  <main class="main-content">
+    <nav class="navbar navbar-dark bg-dark customNavbar shadow-lg">
       <div class="navLeft">
-        <a class="navbar-brand bg-success fullNav" href="#">Matt Volonnino</a>
+        <a class="navbar-brand bg-success fullNav" href="index.html">
+          Matt Volonnino
+        </a>
       </div>
       <div class="navRight">
         <ul class="navbar-nav navRightLink">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">
+              About
+            </a>
           </li>
           <div class="pipe">|</div>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="portfolio.html">
+              Portfolio
+            </a>
           </li>
           <div class="pipe">|</div>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="contact.html">
+              Contact
+            </a>
           </li>
         </ul>
       </div>
-      </nav>
-    </header>
+    </nav>
   
     <!-- Section with main content including information about me and img -->
     <div class="container-fluid mainSection">
       <!-- row 1 -->
       <div class="row row1">
         <!-- column 1 with heading of about me -->
-        <div class="col-md-9 col1 shadow">
+        <div class="col-md-8 col1">
           <h4>About Me</h4>
           <!-- horizantal line seperating coloumns-->
           <hr style="border: 2px solid green; opacity: 30%; margin-top: 2px;">
@@ -62,7 +67,7 @@
       <!-- row 2  -->
       <div class="row row2">
         <!-- column 2 with info about me -->
-        <div class="col-md-9 col2 shadow">
+        <div class="col-md-8 col2">
           <!-- Floats img left so the p text can wrap around -->
           <figure class="image-wrapper float-left mr-3 mb-3">
             <img src="https://via.placeholder.com/300" class="img-fluid img-thumbnail img-responsive" alt="Matt Volonnino Portrait"/>
@@ -82,14 +87,19 @@
         </div>
       </div>
     </div>
-  </div>
+    
+  </main>
 
-  <!-- Fixed Footer on bottom of page with copyright logo-->
+
   <footer class="footer">
     <div class="container">
       <p class="footerText">© Copyright</p>
-    /div>
+    </div>
   </footer>
+  </div>
+
+  <!-- Fixed Footer on bottom of page with copyright logo-->
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
